@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.cart a {
+    color: white;
+    font-size: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+}
+
+.btn {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat h2 {
+    font-size: 2em;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.brand img {
+    max-width: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
